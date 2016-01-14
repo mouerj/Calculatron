@@ -22,11 +22,9 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 - (IBAction)onOperationTapped:(UIButton *)sender {
+    double op1 = self.operandOne.text.doubleValue;
+    double op2 = self.operandTwo.text.doubleValue;
 }
 
 @end
