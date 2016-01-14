@@ -50,16 +50,16 @@
                                         <state key="normal" title="+"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhT-JU-UF3">
-                                        <rect key="frame" x="171" y="0.0" width="30" height="30"/>
+                                        <rect key="frame" x="177" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="-"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08M-pK-RLD">
-                                        <rect key="frame" x="343" y="0.0" width="30" height="30"/>
+                                        <rect key="frame" x="353" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="*"/>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u0-bR-qlP">
-                                        <rect key="frame" x="514" y="0.0" width="46" height="30"/>
-                                        <state key="normal" title="Button"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u0-bR-qlP">
+                                        <rect key="frame" x="530" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="/"/>
                                     </button>
                                 </subviews>
                                 <constraints>
