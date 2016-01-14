@@ -23,8 +23,28 @@
 }
 
 - (IBAction)onOperationTapped:(UIButton *)sender {
+<<<<<<< HEAD
     double op1 = self.operandOne.text.doubleValue;
     double op2 = self.operandTwo.text.doubleValue;
+=======
+
+
+
+    self.operation.text = sender.titleLabel.text;
+    
+    NSString *operation = self.operation.text;
+    if ([operation isEqualToString:@"+"]) {
+    }
+    else if ([operation isEqualToString:@"-"]) {
+        
+    }else if ([operation isEqualToString:@"*"]) {
+        
+    }else  ([operation isEqualToString:@"/"]); {
+        
+    }
+
+
+>>>>>>> a10ca8f71d7e53b1fd31b76bb2b42880914aecc0
 }
 
 @end
