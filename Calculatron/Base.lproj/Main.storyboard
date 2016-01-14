@@ -48,18 +48,30 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v32-Q6-yyc">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="onOperationTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qX-bw-cNN"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhT-JU-UF3">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhT-JU-UF3">
                                         <rect key="frame" x="177" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="onOperationTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C9h-HZ-VIZ"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08M-pK-RLD">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08M-pK-RLD">
                                         <rect key="frame" x="353" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="*"/>
+                                        <connections>
+                                            <action selector="onOperationTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jG1-yr-XTR"/>
+                                        </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u0-bR-qlP">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u0-bR-qlP">
                                         <rect key="frame" x="530" y="0.0" width="30" height="30"/>
                                         <state key="normal" title="/"/>
+                                        <connections>
+                                            <action selector="onOperationTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2wE-5m-TIY"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -77,9 +89,15 @@
                             <constraint firstAttribute="trailingMargin" secondItem="69E-aY-OXb" secondAttribute="trailing" id="ycO-rK-dYn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="operandOne" destination="FQi-rR-l9i" id="MWQ-xy-5I5"/>
+                        <outlet property="operandTwo" destination="4hn-MM-s04" id="TCt-U7-NlE"/>
+                        <outlet property="operation" destination="QGt-dR-bJV" id="NfD-y7-U5U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="475" y="562"/>
         </scene>
     </scenes>
 </document>
