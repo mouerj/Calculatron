@@ -12,6 +12,7 @@
 @property (weak, nonatomic) IBOutlet UITextField *operandOne;
 @property (weak, nonatomic) IBOutlet UITextField *operandTwo;
 @property (weak, nonatomic) IBOutlet UILabel *operation;
+@property (weak, nonatomic) IBOutlet UILabel *answerLabel;
 
 @end
 
@@ -26,18 +27,20 @@
     double op1 = self.operandOne.text.doubleValue;
     double op2 = self.operandTwo.text.doubleValue;
 
-
-
     self.operation.text = sender.titleLabel.text;
     
     NSString *operation = self.operation.text;
-    if ([operation isEqualToString:@"+"]) {
+    if ([operation isEqualToString:@"/"]) {
+        self.answerLabel.text = [NSString stringWithFormat:@"%f", op1 / op2];
     }
-    else if ([operation isEqualToString:@"-"]) {
+    else if  ([operation isEqualToString:@"+"]) {
+        self.answerLabel.text = [NSString stringWithFormat:@"%f", op1 + op2];
         
-    }else if ([operation isEqualToString:@"*"]) {
+    }else if ([operation isEqualToString:@"-"]) {
+        self.answerLabel.text = [NSString stringWithFormat:@"%f", op1 - op2];
         
-    }else  ([operation isEqualToString:@"/"]); {
+    }else   {
+        self.answerLabel.text = [NSString stringWithFormat:@"%f", op1 * op2];
         
     }
 
