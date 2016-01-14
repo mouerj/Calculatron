@@ -42,12 +42,39 @@
                                     <constraint firstAttribute="height" constant="30" id="MuY-xf-l6c"/>
                                 </constraints>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="69E-aY-OXb">
+                                <rect key="frame" x="20" y="212" width="560" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v32-Q6-yyc">
+                                        <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="+"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QhT-JU-UF3">
+                                        <rect key="frame" x="171" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="-"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08M-pK-RLD">
+                                        <rect key="frame" x="343" y="0.0" width="30" height="30"/>
+                                        <state key="normal" title="*"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u0-bR-qlP">
+                                        <rect key="frame" x="514" y="0.0" width="46" height="30"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="nbP-gr-RMc"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="AXO-uh-XLq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PXd-jA-w47"/>
                             <constraint firstItem="AXO-uh-XLq" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="Phz-Xx-3WI"/>
+                            <constraint firstItem="69E-aY-OXb" firstAttribute="top" secondItem="AXO-uh-XLq" secondAttribute="bottom" constant="142" id="o9L-BI-buA"/>
+                            <constraint firstItem="69E-aY-OXb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="owm-dh-l7M"/>
                             <constraint firstAttribute="trailingMargin" secondItem="AXO-uh-XLq" secondAttribute="trailing" id="yWy-sb-cKt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="69E-aY-OXb" secondAttribute="trailing" id="ycO-rK-dYn"/>
                         </constraints>
                     </view>
                 </viewController>
